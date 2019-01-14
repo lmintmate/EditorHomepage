@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>EditorHomepage</title>
+    <meta name="description" content="Homepage for users of text editors.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/master.min.css">
+</head>
+<body>
+    <header id="header">
+        <select id="editors" name="editors"></select><!--
+        --><select id="engines" name="engines"></select><!--
+        --><select id="languages" name="languages"></select>
+    </header>
+
+    <div id="logo"></div>
+    <div id="search">
+        <form method="GET" id="form-search">
+            <div id="input-search">
+                <input type="search" autofocus autocomplete="off">
+                <div id="engine"></div>
+            </div>
+        </form>
+    </div>
+    <nav id="navbar">
+        <ul id="websites">
+            <li><a class="btn link"></a></li><!--
+            --><li><a class="btn link"></a></li><!--
+            --><li><a class="btn link"></a></li>
+        </ul>
+        <ul>
+            <li><a class="btn website"><span id="website-text"></span></a></li><!--
+            --><li><a class="btn doc"><span id="doc-text"></span></a></li>
+        </ul>
+    </nav>
+
+    <div id="about-modal" class="modal">
+        <div>
+            <header class="modal-header"><span id="about-text"></span></header>
+            <div class="modal-content">
+                <h3>EditorHomepage <span id="author-text"></span> <a class="btn-flat btn-primary" href="https://github.com/lmintmate">lmintmate</a></h3>
+                <p>
+                    <span id="description-text"></span><br>
+                    <span id="license-text"></span><br>
+                </p>
+                <a class="btn-flat btn-primary" href="https://github.com/lmintmate/EditorHomepage"><span id="github-text"></span></a>
+                <p><span id="thanks-text"></span></p>
+                <a class="btn-flat btn-primary" href="https://github.com/lmintmate/EditorHomepage/graphs/contributors"><span id="contributors-text"></span></a>
+            </div>
+            <footer class="modal-footer">
+                <a href="#close" class="btn-flat btn-danger"><span id="close-text"></span></a>
+            </footer>
+      </div>
+    </div>
+    <a href="#about-modal" id="about-button">?</a>
+
+    <script src="js/vendor/js.cookie-2.2.0.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
