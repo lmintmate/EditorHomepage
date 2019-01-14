@@ -62,8 +62,8 @@
     "vim": {
         "name": "Vim",
         "main_color": "019833",
-        "website": "http://www.vim.org/",
-        "doc": "https://vim.sourceforge.io/docs.php"
+        "website": "https://www.vim.org/",
+        "doc": "https://www.vim.org/docs.php"
     },
     "visualstudiocode": {
         "name": "Visual Studio Code",
