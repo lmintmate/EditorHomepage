@@ -65,7 +65,7 @@
         "website": "https://www.vim.org/",
         "doc": "https://www.vim.org/docs.php"
     },
-    "visualstudiocode": {
+    "visualstudio code": {
         "name": "Visual Studio Code",
         "main_color": "007bcd",
         "website": "https://code.visualstudio.com/",
