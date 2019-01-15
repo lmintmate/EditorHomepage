@@ -11,7 +11,7 @@
         "website": "http://brackets.io/",
         "doc": "https://github.com/adobe/brackets/wiki"
     },
-    "emacs": {
+    "gnuemacs": {
         "name": "GNU Emacs",
         "main_color": "8350b6",
         "website": "https://www.gnu.org/software/emacs/",

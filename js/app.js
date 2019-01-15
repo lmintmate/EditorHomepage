@@ -3,7 +3,7 @@
 /* CORE */
 
 /* Default vars */
-var defaultEditor = "emacs";
+var defaultEditor = "gnuemacs";
 var defaultEngine = "duckduckgo";
 var defaultLanguage = "en";
 
