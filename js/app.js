@@ -35,9 +35,9 @@ function loadJSON(filename, callback) {
 /* Create links in navbar */
 function createLinks(json) {
     var links = document.querySelectorAll(".link");
-    var lang = json.hasOwnProperty(language) ? language : defaultLanguage;
-    Object.keys(json[lang]).forEach(function (key, index) {
-        links[index].setAttribute("href", json[lang][key]);
+    var edit = json.hasOwnProperty(editor) ? editor : defaultEditor;
+    Object.keys(json[edit]).forEach(function (key, index) {
+        links[index].setAttribute("href", json[edit][key]);
         links[index].textContent = key;
     });
 }
@@ -166,6 +166,7 @@ loadJSON("translations.min.json", initLanguages);
 document.getElementById("editors").onchange = function () {
     editor = this.value;
     loadJSON("editors.min.json", changeEditor);
+    loadJSON("links.min.json", createLinks);
 };
 
 document.getElementById("engines").onchange = function () {
@@ -176,5 +177,4 @@ document.getElementById("engines").onchange = function () {
 document.getElementById("languages").onchange = function () {
     language = this.value;
     loadJSON("translations.min.json", changeLanguage);
-    loadJSON("links.min.json", createLinks);
 };

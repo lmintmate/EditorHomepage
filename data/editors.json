@@ -47,7 +47,7 @@
         "website": "https://notepad-plus-plus.org",
         "doc": "http://docs.notepad-plus-plus.org/index.php/Main_Page"
     },
-"spacemacs": {
+    "spacemacs": {
         "name": "Spacemacs",
         "main_color": "8d73ab",
         "website": "http://spacemacs.org",

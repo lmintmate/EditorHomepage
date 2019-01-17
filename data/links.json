@@ -1,17 +1,62 @@
 {
-    "en": {
-        "Hacker News": "https://news.ycombinator.com",
-        "Linux Journal": "https://www.linuxjournal.com",
-        "LinuxPlanet": "http://www.linuxplanet.com"
+    "atom": {
+        "Atom subreddit": "https://www.reddit.com/r/Atom",
+        "Atom packages": "https://atom.io/packages",
+        "Atom themes": "https://atom.io/themes"
     },
-    "fr": {
-        "Journal du Hacker": "https://www.journalduhacker.net",
-        "Planet Libre": "http://www.planet-libre.org",
-        "LinuxFr": "https://linuxfr.org"
+    "brackets": {
+        "Brackets subreddit": "https://www.reddit.com/r/Brackets",
+        "Extensions Registry": "https://registry.brackets.io",
+        "Github": "https://github.com/adobe/brackets"
+    },    
+    "gnuemacs": {
+        "Emacs subreddit": "https://www.reddit.com/r/emacs",
+        "MELPA": "http://melpa.org",
+        "Emacs Themes": "https://emacsthemes.com"
     },
-    "el": {
-        "OSArena": "http://osarena.net",
-        "Cerebrux": "https://cerebrux.net",
-        "Πλανητης ΕΛ/ΛΑΚ": "https://planet.ellak.gr"
-    }
+    "geany": {
+        "Geany subreddit": "https://www.reddit.com/r/geany",
+        "Plugins": "https://plugins.geany.org",
+        "Github": "https://github.com/geany/geany"
+    },
+    "gedit": {
+        "Gedit subreddit": "https://www.reddit.com/r/gedit",
+        "Plugins": "https://wiki.gnome.org/Apps/Gedit/PluginsLists",
+        "Github": "https://github.com/GNOME/gedit"
+    },
+    "micro": {
+        "Getmic.ro script": "https://github.com/benweissmann/getmic.ro",
+        "Plugins": "https://micro-editor.github.io/plugins.html",
+        "Github": "https://github.com/zyedidia/micro"
+    },
+    "neovim": {
+        "Neovim subreddit": "https://www.reddit.com/r/neovim",
+        "Community": "https://neovim.io/community",
+        "Github": "https://github.com/neovim/neovim"
+    },
+    "notepad++": {
+        "Community": "https://notepad-plus-plus.org/community",
+        "Plugins": "http://docs.notepad-plus-plus.org/index.php?title=Plugin_Central",
+        "Github": "https://github.com/notepad-plus-plus/notepad-plus-plus"
+    },
+    "spacemacs": {
+        "Spacemacs subreddit": "https://www.reddit.com/r/spacemacs",
+        "Quick start": "http://spacemacs.org/doc/QUICK_START.html",
+        "Github": "https://github.com/syl20bnr/spacemacs"
+    },
+    "sublimetext": {
+        "Sublime Text subreddit": "https://www.reddit.com/r/sublimetext",
+        "Forum": "https://forum.sublimetext.com",
+        "Package Control": "https://packagecontrol.io"
+    },
+    "vim": {
+        "Vim subreddit": "https://www.reddit.com/r/vim",
+        "Vimawesome": "https://vimawesome.com",
+        "Vim colors": "https://vimcolors.com"
+    },
+    "visualstudio code": {
+        "Visual Studio Code subreddit": "https://www.reddit.com/r/vscode",
+        "Extensions": "https://marketplace.visualstudio.com/VSCode",
+        "Github": "https://github.com/Microsoft/vscode"
+    }  
 }
